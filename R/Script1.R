@@ -14,6 +14,6 @@ df <- tibble (
       data = df, df, 
       aes(x = x, y= y))
   
-  write_rds(df, "output")
+  write_rds(df, "Output")
   ggsave ("figures/fig1.pdf")
    
